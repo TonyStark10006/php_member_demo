@@ -46,7 +46,7 @@
 	function judge_time ($online_time)
 	{
 		$now_time = time();
-		if ($online_time-$now_time>'5') {
+		if ($now_time-$online_time>'5') {
 			session_destroy();
 			echo "登录超时,请重新登录";
 			$conn=null;
