@@ -1,0 +1,9 @@
+create table member (
+user_id INT(10) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+permission VARCHAR(10),
+username VARCHAR(30) NOT NULL,
+password VARCHAR(64) NOT NULL,
+user_group VARCHAR(30) NOT NULL,
+remark TEXT,
+reg_date TIMESTAMP
+)
