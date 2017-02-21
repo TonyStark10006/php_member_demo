@@ -1,4 +1,4 @@
-# php_member
+# 面向过程版的php_member
 php实现基础会员管理功能，包括
 1.注册
 2.登录
