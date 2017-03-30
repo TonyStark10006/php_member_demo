@@ -6,4 +6,4 @@ password VARCHAR(64) NOT NULL,
 user_group VARCHAR(30) NOT NULL,
 remark TEXT,
 reg_date TIMESTAMP
-)
+)ENGINE=InnoDB DEFAULT CHARSET=utf8
